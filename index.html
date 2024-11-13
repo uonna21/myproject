@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>Student's Experience at Jazan University </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student's Experience at Jazan University</h1>
+        <h2>College of Engineering and Computer Science</h2>
+    </header>
+
+    <section id="intr">
+        <h3>Welome</h3>
+        <p>Welcome to the College of Engineering and Computer Science at Jazan University! Explore the facilities,
+            courses, and diverse student life that make learning here an unforgettable experience</p>
+    </section>
+
+    <section id="vid">
+        <h3>Admission Guidelines</h3>
+        <p>In this video, we will explain the important steps to complete the admission process at Jazan University</p>
+        <video width="320" height="240" controls>
+
+            <source src="guid.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section>
+
+<h3>Listen to students’ tips for preparing for final exams at Jazan University.</h3>
+<SCRIPT> 
+function play()
+ { var source="adv.mp3"; document.write('<EMBED SRC='+source+' VOLUME ="100" HEIGHT="500" WIDTH="1000">'); }
+  </SCRIPT> 
+  <input type="button" value="click" onClick="play()">
+    </section>
+    <section id="fil">
+       <h3>Fields of College of Engineering and Computer Science</h3>
+        <h3> fields of Computer Science </h3>
+        <ul>
+            <li> Software Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Cloud Computing</li>
+            <li>Application Development</li>
+        </ul>
+        <h3> fields of Information Technology </h3>
+        <ul>
+            <li>Information Security</li>
+            <li> Web Systems</li>
+            <li> Data Mining</li>
+        </ul>
+    </section>
+    <section id="sc">
+        <h3>University Buildings</h3>
+        <h3>This table has been prepared to guide you to the buildings on campus</h3>
+        <table>
+
+            <tr>
+                <th>Building Number</th>
+                <th>Associated Colleges / Departments</th>
+            </tr>
+
+            <tr>
+                <td>Building A</td>
+                <td>College of Engineering and Interior Design</td>
+            </tr>
+            <tr>
+                <td>Building B</td>
+                <td>Computer Science, Information Technology, College of Sciences</td>
+            </tr>
+            <tr>
+                <td>Building C</td>
+                <td>For Staff, Professors, and the Deanship</td>
+            </tr>
+            <tr>
+                <td>Building D</td>
+                <td>Chemistry and Physics Labs</td>
+            </tr>
+            <tr>
+                <td>Building E</td>
+                <td>Computer Labs</td>
+            </tr>
+
+        </table>
+    </section>
+    <section id="img">
+        <h3> Computer Science Plan </h3>
+        <img src="cs.jpg" alt="Computer Science Plan">
+        <h3> Information Technology Plan </h3>
+        <img src="it.jpg" alt="Information Technology Plan">
+        
+    </section>
+    <section id="con">
+        <h3>Contact Us </h3>
+        <h3>If you have any doubt or new idea, contact us please.</h3>
+        <form >
+
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <section>
+    
+        <section id="survey">
+            <h3>Choose Your Associated Colleges / Departments:</h3>
+            <form>
+                <ul class="bullet-list">
+                    <li>
+                        <input type="radio" id="engineering" name="departments" value="College of Engineering and Interior Design">
+                        <label for="engineering">College of Engineering and Interior Design</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="cs" name="departments" value="Computer Science, Information Technology, College of Sciences">
+                        <label for="cs">Computer Science, Information Technology, College of Sciences</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="staff" name="departments" value="For Staff, Professors, and the Deanship">
+                        <label for="staff">For Staff, Professors, and the Deanship</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="labs" name="departments" value="Chemistry and Physics Labs">
+                        <label for="labs">Chemistry and Physics Labs</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="computer-labs" name="departments" value="Computer Labs">
+                        <label for="computer-labs">Computer Labs</label>
+                    </li>
+                </ul>
+        
+                <h3>Your Building Number:</h3>
+                <ol>
+                    <li>
+                        <input type="checkbox" id="building-a" name="building" value="A">
+                        <label for="building-a">Building A</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="building-b" name="building" value="B">
+                <label for="building-b">Building B</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="building-c" name="building" value="C">
+                        <label for="building-c">Building C</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="building-d" name="building" value="D">
+                        <label for="building-d">Building D</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="building-e" name="building" value="E">
+                        <label for="building-e">Building E</label>
+                    </li>
+                </ol>
+        
+                <label for="rating">Rate our service:</label>
+                <select id="rating" name="rating">
+                    <option value="very-good">Very Good</option>
+                    <option value="good">Good</option>
+                    <option value="bad">Bad</option>
+                </select>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+
+    <footer>
+
+        <a href="https://edugate.jazanu.edu.sa"> To visit Jazan University</a>
+
+    </footer>
+</body>
+
+
+</html>

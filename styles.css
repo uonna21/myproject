@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #262343;
+    color: white;
+    padding: 20px;
+    text-align:left;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #0a091f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0a091f;
+    color: white;
+}
+
+
+video {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+img{
+    max-width: 50%;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+}
+
+form {
+    display: block;
+    margin-top: 20px;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0a091f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0a091f;
+}
+
+
+a {
+    color: #0a091f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    background-color:#0a091f;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.bullet-list {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin-top: 10px;
+}
+
+.bullet-list li {
+    margin-bottom: 10px; 
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+label {
+    font-size: 1.1em;
+}
+
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1.1em;
+    background-color: #1f1b44;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3d356c;
+}

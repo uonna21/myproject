@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university>
+    <building>
+        <name>Building A</name>
+        <department>College of Engineering and Interior Design</department>
+    </building>
+    <building>
+        <name>Building B</name>
+        <department>Computer Science, Information Technology, College of Sciences</department>
+    </building>
+    <building>
+        <name>Building C</name>
+        <department>For Staff, Professors, and the Deanship</department>
+    </building>
+    <building>
+        <name>Building D</name>
+        <department>Chemistry and Physics Labs</department>
+    </building>
+    <building>
+        <name>Building E</name>
+        <department>Computer Labs</department>
+    </building>
+</university>
